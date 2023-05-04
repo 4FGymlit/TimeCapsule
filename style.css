@@ -86,7 +86,7 @@ p{
     left: 0;
     bottom: -6px;
     width: 100%;
-    height: 3px;
+    height: 3px;    
     background: white;
     border-radius: 5px;
     transform: scaleX(0);
@@ -98,14 +98,15 @@ p{
     transform: scaleX(1);
     transform-origin: left;
 }
-/*
-.navigation .btnActive{
+
+.navigation .active{
+    padding: 10px;
     width: 130px;
     height: 50px;
     background: transparent;
-    border: 2px solid white;
+    border: 3px solid white;
+    border-radius: 8px;
     outline: none;
-    border-radius: 4px;
     cursor: pointer;
     font-size: 1.1em;
     color: white;
@@ -114,8 +115,7 @@ p{
     transition: 0.5s;
 }
 
-.navigation .btnActive:hover{
+.navigation .active:hover{
     background: white;
     color: #162938;
 }
-*/
