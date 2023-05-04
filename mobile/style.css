@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Poppins&display=swap');
+
+*{
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 50px 30px;
+    justify-content: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+    background: rgba(255, 255, 255, .1);
+    border-color: black;
+    border-radius: 2px;
+    font-size: 175%;
+}
+
+body{
+    padding-top: 100px;
+    margin: 40px;
+    align-items: top;
+    min-height: 100vh;
+    background-image: url(4.F\ Time\ Capsule\ bckg.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
+}
+
+body::-webkit-scrollbar {
+    background-color: #1c133e;
+    width: 1em;
+}
+
+body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(45, 30, 100, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #102d65;
+    box-shadow: inset 0 0 6px rgba(45, 30, 100, 0.3)
+}
+
+header.img{
+    size: 1%;
+}
+
+h1{
+    padding-left: 0px;
+    margin-left: 20px;
+    color: rgba(255, 255, 255, .3);
+    font-size: 300%;
+}
+
+p{
+    color: rgba(255, 255, 255, .3);
+    font-size: 200%;
+    padding-left: 0px;
+    margin-left: 20px;
+}
+
+.link{
+    color: rgba(155, 202, 224, .3);
+    font-size: 200%;
+    padding-left: 0px;
+    margin-left: 20px;
+    text-decoration: underline;
+}
+
+.logo{
+    font-size: 2m;
+    color: white;
+    user-select: none;
+}
+
+.navigation a{
+    position: relative;
+    font-size: 1.3em;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+.navigation a::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;    
+    background: white;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transition: transform .5s;
+    transform-origin: right;
+}
+
+.navigation a:hover::after{
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+.navigation .active{
+    padding: 10px;
+    width: 130px;
+    height: 50px;
+    background: transparent;
+    border: 3px solid white;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: white;
+    font-weight: 500;
+    margin-left: 40px;
+    transition: 0.5s;
+}
+
+.navigation .active:hover{
+    background: white;
+    color: #162938;
+}
