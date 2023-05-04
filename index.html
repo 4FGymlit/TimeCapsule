@@ -1,33 +1,42 @@
 <!DOCTYPE html>
 
 <html>
-  <head>
-    <title>4.F Time Capsule</title>
-	<meta name="description" content="Kde máš tátu?">
-	<meta name="author" content="ZlomenyMesic & KryKomDev">
-	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+	<script>
+		if(!(/Android|iPhone/i.test(navigator.userAgent))){
+			console.log("mobile");
+			window.location.replace("domu.html")
+		}else{
+			console.log("desktop");
+		}
+	</script>
+
+	<head>
+    	<title>4.F Time Capsule</title>
+		<meta name="description" content="Kde máš tátu?">
+		<meta name="author" content="ZlomenyMesic & KryKomDev">
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 	
-    <style>
-		body {
-			background-color: #121e2e;
-		}
-		img {
-			position: absolute;
-			width: 100%;
-			height: 30%;
-		}
-		.text {
-			position: absolute;
-			margin-top: 15%;
-			color: #ffffff;
-			font-family: Arial;
-		}
-    </style>
-  </head>
+    	<style>
+			body {
+				background-color: #121e2e;
+			}
+			img {
+				position: absolute;
+				width: 100%;
+				height: 30%;
+			}
+			.text {
+				position: absolute;
+				margin-top: 15%;
+				color: #ffffff;
+				font-family: Arial;
+			}
+    	</style>
+    </head>
   
-  <frameset rows="*" border=0>
-	<frame src="domu.html" name="domu" frameborder=0 scrolling=no noresize>
-	</frame>
-	<noframes>nechtěl bych hošánci, zkuste něco jinýho</noframes>
-  </frameset>
+    <body>
+		<img src="p.png" height="300px" width="800px"/>
+	    <p class="text">Hello, World</p>
+    </body>
 </html>
