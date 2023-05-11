@@ -1,42 +1,66 @@
 <!DOCTYPE html>
-
 <html>
 
-	<script>
-		if(!(/Android|iPhone/i.test(navigator.userAgent))){
-			console.log("deesktop");
-			window.location.replace("pc/domu.html");
-		}else{
-			console.log("mobilee");
-			window.location.replace("mobile/domu.html");
-		}
-	</script>
-
-	<head>
-    	<title>4.F Time Capsule</title>
-		<meta name="description" content="Kde máš tátu?">
-		<meta name="author" content="ZlomenyMesic & KryKomDev">
+    <head>
+        <title>4.F (2023) Time Capsule</title>
+        <meta http-equiv="X-UA-Compatible" content="IE-edge";charset=UTF-8">
+		<meta name="description" content="this is the best description ever">
+		<meta name="author" content="KryKomDev">
 		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-	
-    	<style>
-			body {
-				background-color: #121e2e;
-			}
-			img {
-				position: absolute;
-				width: 100%;
-				height: 30%;
-			}
-			.text {
-				position: absolute;
-				margin-top: 15%;
-				color: #ffffff;
-				font-family: Arial;
-			}
-    	</style>
+        <link rel="stylesheet" href="style.css">
+        <!--<script src="script.js"></script>-->
+        <link rel="icon" href="smile.png">
     </head>
-  
+
     <body>
-	<img src="p.png" height="300px" width="800px"/>
+
+        <header>
+            <p class="header">4.F Time Capsule</p>
+            <nav class="navigation">
+                <a href="https://youtu.be/xvFZjo5PgG0">Video</a>
+            </nav>
+        </header>
+
+        <div style ="text-align:center;">
+            <p>‎ ‎ ‎ </p>
+            <label class="p" for="password">Heslo k přístupu:</label>
+            <input class="text-box" type="password" name="password"><br><br>
+            <button onclick="test()" class="submit">Pokračovat</button>
+        </div>     
+        
+        <script>
+            const password = "Landsdorfův Pahorek";
+
+            function test() {
+
+                const inputText = document.getElementById("password");
+
+                if(inputText.value === password){
+
+                    if(!(/Android|iPhone/i.test(navigator.userAgent))){
+			            console.log("deesktop");
+			            window.location.replace("home.html");
+		            }else{
+			            console.log("mobilee");
+			            window.location.replace("home-mobile.html");
+		            }
+                }
+            }
+        </script>
+
+        <p>‎ ‎ ‎ </p>
+        <p>‎ ‎ ‎ </p>
+        <p>‎ ‎ ‎ </p>
+        <p>‎ ‎ ‎ </p>
+        <p>‎ ‎ ‎ </p>
+
+        <footer>
+            <div class="small" style ="text-align:center;">
+                <p>Tato stránka je pouze pro zábavu, prosíme o respektování bugů (chyb) a případných potíží.</p>
+                <p>KryKomDev & ZlomenyMesic 2023 All Rights Reseved</p>
+                <p>To by se ti líbilo, co? Zkopírovat si celou stránku. :)</p>
+            </div>
+        </footer>
+    
     </body>
 </html>

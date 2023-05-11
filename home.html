@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="cs">
+    <head>
+        <title>4.F (2023) Time Capsule</title>
+        <meta http-equiv="X-UA-Compatible" content="IE-edge";charset=UTF-8">
+		<meta name="description" content="this is the best description ever">
+		<meta name="author" content="KryKomDev">
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="smile.png">
+    </head>
+
+    <body>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                // Add smooth scrolling to all links
+                $("a").on('click', function(event) {
+
+                    // Make sure this.hash has a value before overriding default behavior
+                    if (this.hash !== "") {
+                        // Prevent default anchor click behavior
+                        event.preventDefault();
+
+                        // Store hash
+                        var hash = this.hash;
+
+                        // Using jQuery's animate() method to add smooth page scroll
+                        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                        $('html, body').animate({
+                            scrollTop: $(hash).offset().top
+                        }, 10, function(){
+
+                            // Add hash (#) to URL when done scrolling (default click behavior)
+                            window.location.hash = hash;
+                        });
+                    } // End if
+                });
+            });
+        </script>
+
+        <header>
+            <p class="header">4.F Time Capsule</p>
+            <nav class="navigation">
+                <a href="#uvod">Úvod</a>
+                <a href="#o-tride">O třídě</a>
+                <a href="#fotky">Fotky</a>
+                <a href="#o-projektu">O projektu</a>
+                <a href="#kontaktuj-nas">Kontaktuj nás</a>
+            </nav>
+        </header>
+
+        <div id="uvod">
+            <p>‎ ‎ ‎ </p>
+            <p>‎ ‎ ‎ </p>
+            <h1>Zdravím tě dobrodruhu!</h1>
+            <p>Vítej na stránce 4.F vytvořené při příležitosti 50. výročí GymLitu.</p>
+            <p>Stránka je časová kapsle z roku 2023 určená pro neznámo kdy.</p>
+        </div>
+
+        <div id="o-tride">
+            <p>‎ ‎ ‎ </p>
+            <p>‎ ‎ ‎ </p>
+            <h1>O naší třídě</h1>
+            <p>Idk</p>
+            <p>TEST TEXT</p>
+            <p>TEST TEXT</p>
+            <p>TEST TEXT</p>
+            <p>TEST TEXT</p>
+            <p>TEST TEXT</p>
+            <p>TEST TEXT</p>
+            <p>TEST TEXT</p>
+            <p>TEST TEXT</p>
+        </div>
+
+        <div id="fotky">
+            <p>‎ ‎ ‎ </p>
+            <p>‎ ‎ ‎ </p>
+            <h1>Fotky</h1>
+            <p>TEST TEXT</p>
+            <p>TEST TEXT</p>
+            <p>TEST TEXT</p>
+            <p>TEST TEXT</p>
+            <p>TEST TEXT</p>
+            <p>TEST TEXT</p>
+            <p>TEST TEXT</p>
+            <p>TEST TEXT</p>
+            <p>TEST TEXT</p>
+        </div>
+
+        <div id="o-projektu">
+            <p>‎ ‎ ‎ </p>
+            <p>‎ ‎ ‎ </p>
+            <h1>O projektu</h1>
+            <div style="display: flex; gap: 5px; margin-bottom: 40px;">
+                <a class="p">Stránku vytvořili</a><a class="p link" href="https://github.com/KryKomDev">KryKomDev</a><a class="p">a</a><a class="p link" href="https://github.com/ZlomenyMesic">ZlomenyMesic</a>
+            </div>
+            <div style="display: flex; gap: 5px;">
+                <a class="p">Font:</a>
+                <a class="p link" href="https://fonts.google.com/specimen/Comfortaa?query=comfortaa">Comfortaa</a>
+            </div>
+            
+        </div>
+
+        <div id="kontaktuj-nas">
+            <p>‎ ‎ ‎ </p>
+            <p>‎ ‎ ‎ </p>
+            <h1>Kontaktuj nás</h1>
+            <label class="p" for="password">email:</label>
+            <input class="text-box" type="email" name="email"><br><br>
+            <label class="p" for="password">zpráva:</label>
+            <input class="text-box" type="text" name="text"><br><br>
+            <button onclick="" class="submit">Vyšli to!</button>
+        </div>
+        
+        <p>‎ ‎ ‎ </p>
+        <p>‎ ‎ ‎ </p>
+        <p>‎ ‎ ‎ </p>
+        <p>‎ ‎ ‎ </p>
+
+        <footer>
+            <div class="small" style ="text-align:center;">
+                <p>Tato stránka je pouze pro zábavu, prosíme o respektování bugů (chyb) a případných potíží.</p>
+                <p>KryKomDev & ZlomenyMesic 2023 All Rights Reseved</p>
+                <p>To by se ti líbilo, co? Zkopírovat si celou stránku. :)</p>
+            </div>
+        </footer>
+
+    </body>
+
+</html>

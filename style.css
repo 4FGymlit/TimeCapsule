@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&family=Poppins&display=swap");
+* {
+  padding: 0;
+  font-family: "Comfortaa", sans-serif;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+  background-color: #111;
+  width: 1em;
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(17, 17, 17, 0.2);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #333;
+  box-shadow: inset 0 0 6px rgba(17, 17, 17, 0.2);
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 100px;
+  justify-content: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 99;
+  background: rgba(255, 255, 255, 0.1);
+  border-color: black;
+  border-radius: 10px;
+  font-size: 150%;
+  color: white;
+  backdrop-filter: blur(4px);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+body {
+  display: grid;
+  padding-top: 0px;
+  margin: 40px;
+  align-items: top;
+  min-height: 91.5vh;
+  background: linear-gradient(#0d5b61, #561456, #694704);
+}
+
+footer {
+  background-color: #111;
+  margin: -40px;
+  margin-bottom: -40px;
+}
+
+.small {
+  font-size: 50%;
+}
+
+h1 {
+  color: rgba(255, 255, 255, 0.3);
+  font-size: 300%;
+  padding-left: 0px;
+  margin-left: 20px;
+}
+
+p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 200%;
+  padding-left: 0px;
+  margin-left: 20px;
+}
+
+.p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 200%;
+  padding-left: 0px;
+  margin-left: 20px;
+  display: inline;
+}
+
+.text-box {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 200%;
+  padding-left: 0px;
+  margin-left: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  border-color: rgba(0, 0, 0, 0);
+  display: inline;
+  text-align: center;
+  backdrop-filter: blur(4px);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.submit {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 300%;
+  padding-left: 0px;
+  margin-left: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  border-color: rgba(0, 0, 0, 0);
+  display: inline;
+  backdrop-filter: blur(4px);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.header {
+  color: white;
+  font-size: 100%;
+}
+
+.navigation a {
+  position: relative;
+  font-size: 1.1em;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 40px;
+}
+
+.navigation a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 100%;
+  height: 3px;
+  background: white;
+  border-radius: 5px;
+  transform: scaleX(0);
+  transition: transform 0.5s;
+  transform-origin: right;
+}
+
+.navigation a:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+/*# sourceMappingURL=style.css.map */
