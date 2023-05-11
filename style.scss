@@ -43,14 +43,16 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-width: 2px;
     z-index: 99;
     background: rgba(255, 255, 255, .1);
-    border-color: black;
+    border-color: rgba(white, 0.15);
     border-radius: 10px;
     font-size: 150%;
     color: white;
     backdrop-filter: blur(4px);
     box-shadow: 5px 5px 5px $alphawhite;
+    border-style: solid;
 }
 
 body{
@@ -103,22 +105,27 @@ p{
     @include article(.5, 200%);
     background-color: rgba(255, 255, 255, .1);
     border-radius: 10px;
-    border-color: rgba(0, 0, 0, 0);
+    border-color: rgba(white, 0.15);
     display: inline;
     text-align: center;
     backdrop-filter: blur(4px);
     box-shadow: 5px 5px 5px $alphawhite;
+    border-style: solid;
+    border-width: 2px;
 }
 
 .submit{
     @include article(.5, 300%);
     background-color: rgba(255, 255, 255, .1);
     border-radius: 10px;
-    border-color: rgba(0, 0, 0, 0);
+    border-color: rgba(white, 0.15);
+    border-style: solid;
     display: inline;
     backdrop-filter: blur(4px);
     box-shadow: 5px 5px 5px $alphawhite;
     cursor: pointer;
+    padding: 10px;
+    border-width: 2px;
 }
 
 .header{
