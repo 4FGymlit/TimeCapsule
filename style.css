@@ -11,7 +11,7 @@ html {
 
 body::-webkit-scrollbar {
   background-color: #111;
-  width: 1em;
+  width: 15px;
 }
 
 body::-webkit-scrollbar-track {
@@ -28,7 +28,7 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  padding: 20px 100px;
+  padding: 15px 100px;
   justify-content: center;
   display: flex;
   justify-content: space-between;
@@ -36,9 +36,9 @@ header {
   border-width: 2px;
   z-index: 99;
   background: rgba(255, 255, 255, 0.1);
-  border-color: rgba(255, 255, 255, 0.15);
+  border-color: rgba(221, 221, 221, 0.11);
   border-radius: 10px;
-  font-size: 150%;
+  font-size: 25px;
   color: white;
   backdrop-filter: blur(4px);
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
@@ -50,7 +50,7 @@ body {
   padding-top: 0px;
   margin: 40px;
   align-items: top;
-  min-height: 91.5vh;
+  min-height: 96vh;
   background: linear-gradient(#0d5b61, #561456, #694704);
 }
 
@@ -61,26 +61,26 @@ footer {
 }
 
 .small {
-  font-size: 50%;
+  font-size: 10px;
 }
 
 h1 {
   color: rgba(255, 255, 255, 0.3);
-  font-size: 300%;
+  font-size: 40px;
   padding-left: 0px;
   margin-left: 20px;
 }
 
 p {
   color: rgba(255, 255, 255, 0.5);
-  font-size: 200%;
+  font-size: 30px;
   padding-left: 0px;
   margin-left: 20px;
 }
 
 .p {
   color: rgba(255, 255, 255, 0.5);
-  font-size: 200%;
+  font-size: 30px;
   padding-left: 0px;
   margin-left: 20px;
   display: inline;
@@ -88,12 +88,12 @@ p {
 
 .text-box {
   color: rgba(255, 255, 255, 0.5);
-  font-size: 200%;
+  font-size: 20px;
   padding-left: 0px;
   margin-left: 20px;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 10px;
-  border-color: rgba(255, 255, 255, 0.15);
+  border-color: rgba(221, 221, 221, 0.11);
   display: inline;
   text-align: center;
   backdrop-filter: blur(4px);
@@ -104,12 +104,12 @@ p {
 
 .submit {
   color: rgba(255, 255, 255, 0.5);
-  font-size: 300%;
+  font-size: 40px;
   padding-left: 0px;
   margin-left: 20px;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 10px;
-  border-color: rgba(255, 255, 255, 0.15);
+  border-color: rgba(221, 221, 221, 0.11);
   border-style: solid;
   display: inline;
   backdrop-filter: blur(4px);
@@ -121,12 +121,12 @@ p {
 
 .header {
   color: white;
-  font-size: 100%;
+  font-size: 25px;
 }
 
 .navigation a {
   position: relative;
-  font-size: 1.1em;
+  font-size: 25px;
   color: white;
   text-decoration: none;
   font-weight: 500;

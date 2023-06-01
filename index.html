@@ -4,7 +4,7 @@
     <head>
         <title>4.F (2023) Time Capsule</title>
         <meta http-equiv="X-UA-Compatible" content="IE-edge";charset=UTF-8">
-		<meta name="description" content="this is the best description ever">
+		<meta name="description" content="content. coasi.">
 		<meta name="author" content="KryKomDev">
 		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
         <link rel="stylesheet" href="style.css">
@@ -23,8 +23,10 @@
 
         <div style ="text-align:center;">
             <p>‎ ‎ ‎ </p>
-            <label class="p" for="password">Heslo k přístupu:</label>
-            <input id="password" class="text-box" type="password" name="password"><br><br>
+            <div>
+                <label class="p" for="password">Heslo k přístupu:</label>
+                <input id="password" class="text-box" type="password" name="password"><br><br>
+            </div>
             <button onclick="test()" class="submit">Pokračovat</button>
         </div>     
         
@@ -37,13 +39,14 @@
 
                 if(inputText.value == password){
 
-                    if(!(/Android|iPhone/i.test(navigator.userAgent))){
-			            console.log("deesktop");
-			            window.location.replace("home.html");
-		            }else{
-			            console.log("mobilee");
-			            window.location.replace("home.html");
-		            }
+                    window.location.replace("home.html");
+                    // if(!(/Android|iPhone/i.test(navigator.userAgent))){
+			        //     console.log("deesktop");
+			            
+		            // }else{
+			        //     console.log("mobilee");
+			        //     window.location.replace("home-mobile.html");
+		            // }
                 }
             }
         </script>
@@ -56,10 +59,9 @@
 
         <footer>
             <div class="small" style ="text-align:center;">
-                <p>Tato stránka je pouze pro zábavu, prosíme o respektování bugů (chyb) a případných potíží.</p>
-                <p>KryKomDev & ZlomenyMesic 2023 All Rights Reseved</p>
-                <p>To by se ti líbilo, co? Zkopírovat si celou stránku. :)</p>
-                <p>Podpořte Matyáše na YouTubu: https://youtube.com/@Riftcze</p>
+                <p style="font-size: 15px;">Tato stránka je pouze pro zábavu, prosíme o respektování bugů (chyb) a případných potíží.</p>
+                <p style="font-size: 15px;">KryKomDev & ZlomenyMesic 2023 All Rights Reseved</p>
+                <p style="font-size: 15px;">To by se ti líbilo, co? Zkopírovat si celou stránku. :)</p>
             </div>
         </footer>
     
